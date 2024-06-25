@@ -1,0 +1,52 @@
+.todo-form{
+    background-color: #1d1840;
+    color: #fff5f8;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: 500px;
+    .title{
+        margin: 8px 0;
+        font-size: 32px;
+        align-self: center;
+    }
+    .error{
+        font-size: 16px;
+        margin: 0;
+        color: red;
+        margin-top: 2px;
+    }
+    .form-control{
+        display: flex;
+        column-gap: 8px;
+        margin-bottom: 4px;
+        align-items: center;
+        label{
+            font-size: 20px;
+        }
+        .form-input{
+            width: 250px;
+            background-color: inherit;
+            border-color: #825cff;
+            min-height: 28px;
+            color: #fff5f8;
+            &::placeholder{
+                margin-left: 4px;
+
+            }
+            ::-ms-input-placeholder {
+                color: #1d1840;
+            }
+        }
+        
+    }
+    .form-submit{
+        height: 36px;
+        width: 100px;
+        border-radius: 4px;
+        background-color: #825cff;
+        color: #fff5f8;
+        font-size: 18px;
+    }
+}
