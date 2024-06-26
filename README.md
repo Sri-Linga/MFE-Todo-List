@@ -1,6 +1,6 @@
 **Quick start**
 
-clone this repo using 
+clone this repo using `git clone https://github.com/Sri-Linga/MFE-Todo-List.git`
 
 Move to the appropriate directory `cd ToDo`
 
